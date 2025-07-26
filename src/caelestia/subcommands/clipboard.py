@@ -1,4 +1,4 @@
-import subprocess
+import subprocess, os
 from argparse import Namespace
 
 
@@ -17,7 +17,6 @@ class Command:
             args = ["--placeholder=Type to search clipboard"]
 
         chosen = subprocess.check_output(["fuzzel", "--dmenu", *args], input=clip)
-
         if self.args.delete:
             subprocess.run(["cliphist", "delete"], input=chosen)
         else:

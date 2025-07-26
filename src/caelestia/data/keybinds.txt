@@ -1,0 +1,113 @@
+󰘴 + 󰘵 + Delete  | System          | Session
+󰘴 + 󰘵 + C       | System          | Clear Notifications
+󰖳 + K           | System          | Show all
+󰖳 + L           | System          | Lock
+󰖳 + 󰘶 + L       | System          | Sleep
+󰘴 + 󰖳 + 󰘵 + R   | System          | Restart
+󰘴 + 󰖳 + 󰘶 + R   | System          | Kill
+󰘴 + 󰖳 + 󱁐       | Media           | Toggle
+󰘴 + 󰖳 +        | Media           | Next
+󰘴 + 󰖳 +        | Media           | Previous
+󰖳 + 󰘶 + M       | Media           | Mute
+󰖳 +            | Workspace       | Go to workspace #
+󰘴 + 󰖳 +        | Workspace       | Go to workspace group #
+󰘴 + 󰖳 + →       | Workspace       | Workspace +1
+󰘴 + 󰖳 + ←       | Workspace       | Workspace -1
+󰖳 + S           | Workspace       | Special Workspace
+󰘴 + 󰘶 + Esc     | Workspace       | Toggle sysmon
+󰖳 + M           | Workspace       | Toggle music
+󰖳 + D           | Workspace       | Toggle communication
+󰖳 + R           | Workspace       | Toggle Todo
+󰖳 + 󰘵 +        | Move Window     | Move to workspace #
+󰘴 + 󰖳 + 󰘵 +    | Move Window     | Move to workspace group #
+󰘴 + 󰖳 + 󰘶 + →   | Move Window     | Move to workspace +1
+󰘴 + 󰖳 + 󰘶 + ←   | Move Window     | Move to workspace -1
+󰖳 + 󰘵 + S       | Move Window     | Move to special workspace
+󰘴 + 󰖳 + 󰘶 + ↑   | Move Window     | Move up to special workspace
+󰘴 + 󰖳 + 󰘶 + ↓   | Move Window     | Move down from special workspace
+󰘵 + 󰌒           | Window groups   | Cycle next active
+󰘴 + 󰘵 + 󰌒       | Window groups   | Change active group
+󰖳 + 󰸣           | Window groups   | Toggle group
+󰖳 + 󰘶 + 󰸣       | Window groups   | Lock active group
+󰖳 + ←↑→↓        | Window actions  | Move focus
+󰖳 + 󰘶 + ←↑→↓    | Window actions  | Move window
+󰖳 +            | Window actions  | Split ratio -0.1
+󰖳 +            | Window actions  | Split ratio +0.1
+󰖳 + Z           | Window actions  | Move window freely
+󰖳 + X           | Window actions  | Resize window
+󰘴 + 󰖳 + \       | Window actions  | Center window
+󰘴 + 󰖳 + 󰘵 + \   | Window actions  | Resize active 55% 77%
+󰖳 + 󰘵 + \       | Window actions  | Move window to pip
+󰖳 + P           | Window actions  | Pin
+󰖳 + F           | Window actions  | Fullscreen
+󰖳 + 󰘵 + F       | Window actions  | Fullscreen with border
+󰖳 + 󰘵 + 󱁐       | Window actions  | Toggle floating
+󰖳 + Q           | Window actions  | Kill active
+󰖳               | Apps            | Launcher
+󰖳 + T           | Apps            | Foot
+󰖳 + W           | Apps            | Zen
+󰖳 + C           | Apps            | VSCodium
+󰖳 + G           | Apps            | Github-Desktop
+󰖳 + E           | Apps            | Thunar
+󰖳 + 󰘵 + E       | Apps            | Nemo
+󰘴 + 󰘵 + Esc     | Apps            | QPS
+󰘴 + 󰘵 + V       | Apps            | Pavucontrol
+Prt Sc          | Utilities       | Screenshot fullscreen
+󰖳 + 󰘶 + S       | Utilities       | Screenshot region (freeze)
+󰖳 + 󰘶 + 󰘵 + S   | Utilities       | Screenshot region
+󰖳 + 󰘵 + R       | Utilities       | Record Screen with sound
+󰘴 + 󰘵 + R       | Utilities       | Record Screen
+󰖳 + 󰘶 + 󰘵 + R   | Utilities       | Record Region
+󰖳 + 󰘶 + C       | Utilities       | Colour picker
+󰖳 + •           | Utilities       | Emoji picker
+󰖳 + V           | Utilities       | Clipboard
+󰖳 + 󰘵 + V       | Utilities       | Clipboard Delete
+󰘴 + 󰘶 + 󰘵 + V   | Utilities       | Alternate Paste
+K / J / ↑ / ↓   | Yazi            | Move Cursor
+L / →           | Yazi            | Enter Directory
+H / ←           | Yazi            | Leave Directory
+󰘶 + K           | Yazi            | Seek up 5 units
+󰘶 + J           | Yazi            | Seek down 5 units
+G -> G          | Yazi            | Move to top
+󰘶 + G           | Yazi            | Move to bottom
+Z               | Yazi            | Cd to dir or fzf
+󰘶 + Z           | Yazi            | Cd to dir via zoxide
+󱁐               | Yazi            | Toggle selection
+V               | Yazi            | Enter visual (selection)
+󰘶 + V           | Yazi            | Enter visual (unset)
+󰘴 + A           | Yazi            | Select all
+󰘴 + R           | Yazi            | Inverse Select all
+Esc             | Yazi            | Cancel Selection
+O               | Yazi            | Open selected file
+󰘶 + O           | Yazi            | Open selected interactive
+󰌒               | Yazi            | Show file info
+Y               | Yazi            | Yank selected (copy)
+X               | Yazi            | Yank select (cut)
+P               | Yazi            | Paste files
+󰘶 + P           | Yazi            | Paste files and overwrite
+Y / X           | Yazi            | Cancel yank status
+d               | Yazi            | Trash selected
+󰘶 + D           | Yazi            | Trash permanently selected
+A               | Yazi            | Create file
+R               | Yazi            | Rename selected
+.               | Yazi            | Toggle visibility of hidden
+;               | Yazi            | Run shell command
+:               | Yazi            | Run shell command (block)
+               | Yazi            | Symlink abs path of yanked
+_               | Yazi            | Symlink rel path of yanked
+󰘴 +            | Yazi            | Hardlink yanked
+C               | Yazi            | Copy mode
+F               | Yazi            | Filter files
+/               | Yazi            | Find next file
+?               | Yazi            | Find previous file
+N               | Yazi            | Go to next found
+󰘶 + N           | Yazi            | Go to previous found
+S               | Yazi            | Search files by name
+󰘶 + S           | Yazi            | Search files by content
+󰘴 + S           | Yazi            | Cancel search
+󰸣 + Letter      | Yazi            | Sort
+T               | Yazi            | New tab
+               | Yazi            | Switch to tab
+[ / ]           | Yazi            | Switch to adj tab
+{ / }           | Yazi            | Swap curr with tab
+󰘴 + C           | Yazi            | Close current tab

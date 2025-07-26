@@ -121,5 +121,9 @@ complete -c caelestia -n "$seen wallpaper" -s 'N' -l 'no-smart' -d 'Disable smar
 complete -c caelestia -n "$seen emoji" -s 'p' -l 'picker' -d 'Open emoji/glyph picker'
 complete -c caelestia -n "$seen emoji" -s 'f' -l 'fetch' -d 'Fetch emoji/glyph data from remote'
 
+# Keybinds
+complete -c caelestia -n "$seen keybinds" -s 'p' -l 'picker' -d 'Open keybinds'
+complete -c caelestia -n "$seen keybinds" -s 'g' -l 'generate' -d 'Generate keybinds.txt when json changed'
+
 # Pip
 complete -c caelestia -n "$seen pip" -s 'd' -l 'daemon' -d 'Start in daemon mode'
